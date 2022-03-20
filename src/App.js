@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+//import ReactstrapAlerts from './components/R034_ReactstrapAlerts';
+//import ReactstrapBadges from './components/R035_ReactstrapBadges';
+//import ReactstrapBreadcrumbs from './components/R036_ReactstrapBreadcrumbs';
+//import ReactstrapDropdown from './components/R037_ReactstrapDropdown';
+import ReactstrapDropdown from './components/R037_ReactstrapDropdown';
+
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Start React 200!</h1>
+      <p>Part 2 React.js 기초 다지기</p>
+      {/* <ReactstrapAlerts /> */}
+      {/* <ReactstrapBadges /> */}
+      {/* <ReactstrapBreadcrumbs /> */}
+      {/* <ReactstrapDropdown /> */}
+      <ReactstrapDropdown />
     </div>
   );
 }
